@@ -1,20 +1,63 @@
+/* Tag Selectors */
+/* is where you can put comments */
 body {
-  background-color:#FCEEDE;
+  background-color: #FCEEDE;
+  margin: 0;
 }
+
 hr {
-  border-style: dotted none none;
-  width: 25%;
-  border-width: 3px;
   border-color: #F4CB81;
+  border-style: dotted none none;
+  border-width: 3px;
+  width: 25%;
 }
 
 h1 {
-color: #4E1E1E;
-
+  color: #4E1E1E;
+  margin: 0;
+  text-align: center;
 }
 
 h3 {
+  color: #4E1E1E;
   font: 1.2em "Fira Sans", sans-serif;
-color: #4E1E1E;
-
 }
+
+/*Class Selectors */
+
+.border-solid {
+  border-top: 1px solid #F4CB81;
+  border-width: 3px;
+  width: 70%;
+}
+
+.Contact {
+  text-align: center;
+}
+
+.heading1 {
+  text-decoration: underline;
+}
+
+.heading2 {
+  text-decoration: underline;
+}
+
+.heading3 {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #D7E9F7;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.top-title {
+  font-size: 17px;
+  font-style: italic;
+}
+
+
+/* ID Selectors */
