@@ -26,6 +26,10 @@ h3 {
 
 /*Class Selectors */
 
+
+
+
+
 .border-solid {
   border-top: 1px solid #F4CB81;
   border-width: 3px;
@@ -40,7 +44,7 @@ h3 {
 .cloud-img {
 text-align: center;
 width: 100%;
-height: 300px;
+height: 400px;
 margin: 0;
 background-size: cover;
 background-repeat: repeat;
@@ -63,8 +67,9 @@ background-repeat: repeat;
 .top-container {
   background-color: #FCEEDE;
   margin: 0;
-  margin-bottom: 0px;
-  padding: 0px;
+  margin-bottom: 0;
+  padding: 0;
+  padding-bottom: 40px;
 }
 
 .top-title {
